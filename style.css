@@ -1,0 +1,132 @@
+body{
+    font-size: 18px;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: #1f2937;
+    font-size: 24px;
+    color: #f9faf8;
+    position: sticky;
+    padding: 50px;
+}
+
+footer{
+    background-color: #1f2937;
+    text-align: center;
+    position: sticky;
+    padding: 10px;
+    color: #f9faf8;
+}
+
+li{
+    list-style-type: none;
+    font-size: 18px;
+}
+
+.upperHeader, ul{
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.hero{
+    display: flex;
+    
+}
+
+#thisWebsite{
+    font-size: 48px;
+    font-weight: bolder;
+    color: #E5E7EB;
+}
+
+#heroSecondary{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.buttons{
+    background-color: #3882f6;
+    border-radius: 5px;
+    border: 1px solid #3882f6;
+    color: #f9faf8;
+    font-size: 18px;
+}
+
+h2{
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+    text-align: center;
+}
+
+.testimonial{
+    background-color: #E5E7EB;
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    text-align: center;
+    padding: 5%;
+}
+
+h1{
+   font-size: 24px; 
+   color: #f9faf8;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 600px;
+    height: auto;
+    background-color: #E5E7EB;
+    text-align: center;
+    justify-content: center;
+    color: #1f2937;
+}
+
+.information{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 10%;
+    gap: 5%;
+}
+
+.images{
+    border: 5px solid #3882f6;
+    border-radius: 5px;
+}
+
+.callToAction{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 10px;
+    color: #E5E7EB;
+    justify-content: space-evenly;
+    margin: 100px 200px;
+    padding: 40px;
+}
+
+div .leftCall{
+    display: block;
+    align-items: center;
+    line-height: 0px;
+}
+
+#signUp{
+    border: 2px solid #f9faf8;
+    background-color: #3882f6;
+    color: #f9faf8;
+    border-radius: 5px;
+}
+
+div .rightCall{
+    display: flex;
+    align-items: center;
+}
